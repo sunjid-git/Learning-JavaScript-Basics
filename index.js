@@ -1,24 +1,16 @@
 
-var numWon = 0;
-var numLost = 0;
 
-for(var i =1; i<=5; i++){
-    var guessNumber = parseInt(prompt("Enter a number from 1 to 5 : "));
+var myVar = document.querySelector("#myImgId");
 
-    var randomNumber = Math.floor(Math.random()*5)+1;
-    
-    if(guessNumber==randomNumber)
-    {
-        console.log("You have won");
-        numWon++;
-    }
-    else{
-        console.log("You have lost. Random number was : " + randomNumber);
-        numLost++;
-    }
+ function myPic1(){
+ 
+    myVar.src ="./images/1.jpg";
 }
-document.write("Won : "+numWon+"<br>");
-document.write("Lost : "+numLost+"<br>");
+
+function myPic2(){
+ 
+    myVar.src ="./images/2.jpg";
+}
 
 
 
@@ -26,6 +18,46 @@ document.write("Lost : "+numLost+"<br>");
 
 
 
+
+// document.querySelector("li a").innerHTML="new text";
+
+// document.querySelector(".my-div a").innerHTML="new text";
+
+
+
+
+
+
+
+
+
+
+
+// document.querySelector("p").innerHTML="bb";
+
+
+// // document.querySelector(".id").innerHTML="changing";
+
+// // document.querySelector("#pid").innerHTML="changdfging";
+
+
+
+
+// // var myheading =document.getElementById("heading1");
+// // myheading.innerHTML="Hasan";
+
+// // var myheading2 =document.getElementById("heading2");
+// // myheading2.innerHTML="GB GB";
+
+// // document.getElementById("para").innerHTML="Mafi";
+
+
+// // document.getElementsByTagName("h1")[0].innerHTML="hi";
+// // document.getElementsByTagName("h1")[1].innerHTML="hi";
+
+
+// document.getElementsByClassName("para1")[0].innerHTML="mafi";
+// document.getElementsByClassName("para1")[1].innerHTML="mafi";
 
 
 
